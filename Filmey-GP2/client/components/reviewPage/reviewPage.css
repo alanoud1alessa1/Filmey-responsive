@@ -1,0 +1,40 @@
+.write-review {
+  background-color: #c4c4c499;
+  color: var(--white);
+  border: 0px;
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s6);
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 491px;
+  width: 100%;
+}
+
+.write-review::placeholder {
+  color: #ffffff99;
+}
+
+.write-review:focus {
+  outline: none !important;
+  border-color: #c4c4c499;
+}
+
+.review-submit-btn {
+  background-color: var(--cardinal);
+  color: var(--white);
+  border-radius: 10px;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs6);
+  font-weight: 700;
+  border: none;
+  padding: 10px 40px;
+  margin-top: 30px;
+}
+
+.review-submit-btn:disabled {
+  background-color: var(--cardinal);
+  opacity: 40%;
+  cursor: not-allowed;
+}

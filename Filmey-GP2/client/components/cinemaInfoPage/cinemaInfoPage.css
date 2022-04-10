@@ -1,0 +1,51 @@
+.cinema-info-page {
+  background: url(../../static/img/backgroundImage.png) center center no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+}
+
+.cinema-info-logo {
+  width: 350px;
+  height: 250px;
+}
+.cinema-info-logo-vox {
+  width: 250px;
+  height: 350px;
+}
+
+.about-cinema {
+  font-size: 30px;
+}
+
+.cinema-location {
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}
+.cinema-location p {
+  font-size: 30px;
+}
+.cinema-location-icon {
+  color: var(--cardinal);
+}
+
+@media only screen and (max-width: 768px) {
+  .cinema-info-logo {
+    width: 250px;
+    height: 150px;
+  }
+  .cinema-info-logo-vox {
+    width: 150px;
+    height: 250px;
+  }
+  .cinema-info-title {
+    font-size: 30px;
+  }
+  .about-cinema,
+  .cinema-location,
+  .cinema-location p {
+    font-size: 20px;
+  }
+}

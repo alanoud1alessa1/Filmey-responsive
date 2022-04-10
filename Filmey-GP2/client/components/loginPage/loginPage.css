@@ -1,0 +1,59 @@
+.login-section {
+  background: url(../../static/img/backgroundImage.png) center center no-repeat;
+  background-size: cover;
+}
+.login-logo {
+  width: 40%;
+}
+.login-box {
+  width: 50%;
+  margin: auto;
+}
+.login-field-box {
+  position: relative;
+}
+.login-error {
+  color: var(--cardinal);
+  font-weight: bold;
+  position: absolute;
+  bottom: -30px;
+  left: 10px;
+}
+
+.welcome-back {
+  color: var(--cardinal);
+  font-family: var(--font-family-overpass);
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 3.6px;
+}
+.forget-password {
+  color: #b62b2b;
+  font-weight: 700;
+  text-decoration: underline !important;
+  text-decoration-color: var(--cardinal);
+  font-size: 23px;
+}
+
+.login-input {
+  border-radius: 50px !important;
+  padding: 20px 20px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-back {
+    font-size: 24px;
+  }
+  .register-link {
+    font-size: 20px;
+  }
+  .input-label {
+    font-size: 18px;
+  }
+  .forget-password {
+    font-size: 16px;
+  }
+  .login-box {
+    width: 100% !important;
+  }
+}

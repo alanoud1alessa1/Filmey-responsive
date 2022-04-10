@@ -1,0 +1,9 @@
+.cinema-movies .movie {
+  width: 100% !important;
+}
+@media only screen and (max-width: 440px) {
+  .cinema-movies .movie {
+    width: 90% !important;
+    margin: auto;
+  }
+}

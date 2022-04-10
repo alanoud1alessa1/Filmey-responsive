@@ -1,0 +1,49 @@
+.cinemas-page {
+  background: url(../../static/img/backgroundImage.png) center center no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+}
+.cinema-box {
+  color: white;
+  background-color: var(--shark);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+.cinema-logo {
+  width: 80%;
+}
+.cinema-logo-vox {
+  width: 160px;
+  height: 160px;
+}
+.cinema-description {
+  text-align: justify;
+  min-height: 450px;
+}
+.read-more-btn {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxl5);
+  font-weight: 400;
+  background-color: var(--cardinal);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.read-more-btn:hover {
+  color: var(--white);
+  transform: translate(-5px) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .cinema-description {
+    min-height: inherit;
+  }
+  .read-more-btn {
+    font-size: 18px;
+  }
+}

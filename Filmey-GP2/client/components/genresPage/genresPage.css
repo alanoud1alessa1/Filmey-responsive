@@ -1,0 +1,12 @@
+.viewMoreBtn {
+  background-color: var(--cardinal);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;
+}
+
+.viewMoreBtn:hover {
+  transform: translate(0, -5px);
+}

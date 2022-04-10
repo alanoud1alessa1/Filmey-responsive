@@ -1,0 +1,22 @@
+.watch-list-box {
+  position: relative;
+}
+
+.watch-list {
+  color: var(--baby-powder);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.watch-list {
+  color: var(--cardinal);
+}
+
+.watch-list:hover {
+  color: red;
+}
